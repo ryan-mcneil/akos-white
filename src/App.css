@@ -1,0 +1,12 @@
+.main-logo{
+  display: flex;
+  width: 40%;
+  margin: 5% auto;
+
+}
+
+.content{
+  margin: 10px auto;
+  text-align: center;
+  color :#ff6600
+}
