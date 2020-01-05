@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
 
-import Logo from '../src/assets/AKoS_Logo-Black_1.png';
+import Header from './components/header/header.component';
+import Content from './components/content/content.component'
 
 class App extends React.Component {
   constructor() {
@@ -12,8 +13,8 @@ class App extends React.Component {
 
     return (
       <div>
-        <img src={Logo} className="main-logo"/>
-        <h1 className="content">Stay Tuned.</h1> 
+        <Header/>
+        <Content className='content' id="content-container"/>
       </div>
     );
   }
