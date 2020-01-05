@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/akos-white/precache-manifest.b95b776a46ff52850d1acc72f51e3831.js"
+  "/akos-white/precache-manifest.b672c8e0502f14a9f884811bba0f9c1e.js"
 );
 
 self.addEventListener('message', (event) => {
