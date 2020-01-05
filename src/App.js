@@ -14,7 +14,7 @@ class App extends React.Component {
     return (
       <div>
         <Header/>
-        <Content className='content' id="content-container"/>
+        <Content/>
       </div>
     );
   }

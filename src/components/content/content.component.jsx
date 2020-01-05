@@ -12,7 +12,7 @@ class Content extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className='content' id="content-container">
 
         <img src={Logo} className="main-logo" />
         <Element id='section-1'>
