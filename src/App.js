@@ -10,7 +10,7 @@ class App extends React.Component {
     super();
 
     this.state = {
-      is_validated: false
+      is_validated: true
     }
   }
 
