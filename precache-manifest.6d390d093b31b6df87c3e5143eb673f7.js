@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8932663f946c671aaf29f9bd1a63d005",
+    "revision": "f7b1c9b3d801c9a28c7e23c378860850",
     "url": "/akos-white/index.html"
   },
   {
-    "revision": "9a30356ecf7c275fc2a8",
-    "url": "/akos-white/static/css/main.9b52dbfa.chunk.css"
+    "revision": "475f28f03fbaff6857f1",
+    "url": "/akos-white/static/css/main.2fc999bb.chunk.css"
   },
   {
-    "revision": "8ddfcdf76e9dcc442c5c",
-    "url": "/akos-white/static/js/2.c2575a30.chunk.js"
+    "revision": "4a69a6718c581d84441c",
+    "url": "/akos-white/static/js/2.7410ac5c.chunk.js"
   },
   {
     "revision": "d705cb622423d72c5defbf368ca70dcc",
-    "url": "/akos-white/static/js/2.c2575a30.chunk.js.LICENSE"
+    "url": "/akos-white/static/js/2.7410ac5c.chunk.js.LICENSE"
   },
   {
-    "revision": "9a30356ecf7c275fc2a8",
-    "url": "/akos-white/static/js/main.1acb193c.chunk.js"
+    "revision": "475f28f03fbaff6857f1",
+    "url": "/akos-white/static/js/main.9632bb82.chunk.js"
   },
   {
     "revision": "0b9b1d2a9af6d8ba1b1b",
