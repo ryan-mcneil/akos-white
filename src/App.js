@@ -5,6 +5,9 @@ import Header from './components/header/header.component';
 import Content from './components/content/content.component';
 import Validate from './components/validate/validate.component';
 
+import Background from './assets/topo-image.png';
+
+
 class App extends React.Component {
   constructor() {
     super();
@@ -26,11 +29,12 @@ class App extends React.Component {
   render() {
 
     return (
-      <div>
+      <div className='background' 
+      >
         {
           this.state.is_validated ?
             <div>
-              <Header />
+              <Header className='header'/>
               <Content />
             </div>
             :

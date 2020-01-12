@@ -1,7 +1,15 @@
 .text-container{
   width: 60%;
-  text-align: center;
+  text-align: left;
   margin: 30px auto;
+}
+
+.single-text{
+  margin: 20px;
+}
+
+.info-text{
+  margin: 20px;
 }
 
 .slogan{
@@ -16,7 +24,7 @@
 
 .video-container{
   margin: 0 auto;
-  width: 75%;
+  width: 60%;
 }
 
 .youtube-wrapper{
@@ -40,7 +48,8 @@ iframe{
   width: 320px;
   position: relative;
   top: 50%;
-  margin: 0 auto;  z-index: 0;
+  margin: 0 auto;  
+  z-index: 0;
 
 }
 
