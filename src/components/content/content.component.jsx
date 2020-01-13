@@ -12,12 +12,15 @@ class Content extends React.Component {
     super();
   }
 
+
   render() {
     return (
       <div className='content' id="content-container">
         <div className='text-container'>
           <div className='slogan'>
-            <h1>A fresh option for the highly active + Socially conscious among us</h1>
+            <span>A </span>
+            <span className='akos-orange'>fresh</span>
+            <span> option for the highly active + Socially conscious among us</span>
           </div>
         </div>
         <div className='instagram-container'>
@@ -38,8 +41,8 @@ class Content extends React.Component {
         </div>
         <Element id='overview'>
           <div className='text-container'>
-            <div className='heading'>
-              <h2>The Problem</h2>
+            <div className='sub-heading'>
+              <h2 className='akos-orange'>The Problem</h2>
             </div>
           </div>
           <div className='text-container'>
@@ -50,8 +53,8 @@ class Content extends React.Component {
             </div>
           </div>
           <div className='text-container'>
-            <div className='heading'>
-              <h2>The Solution</h2>
+            <div className='sub-heading'>
+              <h2 className='akos-orange'>The Solution</h2>
             </div>
           </div>
           <img src={Logo} className="solution-logo" />
@@ -124,15 +127,14 @@ class Content extends React.Component {
           </div>
           {/* <h1 className="content-item">Content 2</h1> */}
         </Element>
-        <img src={Logo} className="main-logo" />
         <Element id='section-3'>
           <h1 className="content-item">Content 3</h1>
+          <img src={Logo} className="main-logo" />
         </Element>
-        <img src={Logo} className="main-logo" />
         <Element id='section-4'>
           <h1 className="content-item">Content 4</h1>
+          <img src={Logo} className="main-logo" />
         </Element>
-        <img src={Logo} className="main-logo" />
       </div >
 
     )

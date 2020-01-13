@@ -1,3 +1,17 @@
+$akos-orange: #ff6600;
+
 .header-link{
   margin: 30px;
 }
+
+.header-link:hover{
+  color: $akos-orange;
+  cursor: pointer;
+  
+}
+
+.header-link-selected{
+  color: $akos-orange;
+}
+
+// .header-link:

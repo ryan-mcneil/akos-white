@@ -5,7 +5,7 @@ import Header from './components/header/header.component';
 import Content from './components/content/content.component';
 import Validate from './components/validate/validate.component';
 
-import Background from './assets/topo-image.png';
+import { animateScroll as Scroll } from 'react-scroll'
 
 
 class App extends React.Component {
@@ -18,7 +18,6 @@ class App extends React.Component {
   }
 
   handleClickYes = () => {
-    console.log('yes');
     this.setState({is_validated: true})
   }
 
@@ -26,15 +25,20 @@ class App extends React.Component {
     
   }
 
+  handleClickIcon = () => {
+    Scroll.scrollTo(0);
+  }
+
+
   render() {
 
     return (
-      <div className='background' 
+      <div className='background' id='main-page'
       >
         {
           this.state.is_validated ?
             <div>
-              <Header className='header'/>
+              <Header className='header' handlePress={this.handleClickIcon}/>
               <Content />
             </div>
             :
