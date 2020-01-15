@@ -1,19 +1,24 @@
+$akos-orange: #ff6600;
+
 .header {
   width: 100%;
-  padding: 10px;
   background-color: white;  // border: solid;
-  height: 80px;
+  // height: 80px;
+  height: fit-content;
   box-shadow: 0 0 10px #333;
   z-index: 1;
+  display: flex;
 }
 
 .links {
-  width: fit-content;
-  max-width: 70%;
+  width: 70%;
+  // width: fit-content;
+  // max-width: 70%;
   display: flex;
-  margin: 0 auto;
   padding: auto;
   text-align: center;
+
+  margin: 0 20% 0 5%;
 }
 
 .sticky{
@@ -22,10 +27,30 @@
   width: 100%;
 }
 
+.small-logo-with-text{
+  height: fit-content;
+  display: flex;
+  // flex-wrap: wrap;
+  width: 20%;
+  min-width: fit-content;
+
+}
+
+.logo-text{
+  width: fit-content;
+  height: fit-content;
+  margin-top: 50px;
+  font-size: 12px;
+  margin-left: 5px;
+  min-width: 100px;
+}
+
 .small-logo{
-  padding: 0 20px;
-  height: 80%;
-  position: absolute;
+  padding: 10px;
+  position: relative;
+  height: 80px;
+  margin: 0;
+
 }
 
 .small-logo:hover{

@@ -4,6 +4,7 @@ import './App.scss';
 import Header from './components/header/header.component';
 import Content from './components/content/content.component';
 import Validate from './components/validate/validate.component';
+import MailChimp from './components/mail-chimp/mail-chimp.component'
 
 import { animateScroll as Scroll } from 'react-scroll'
 
@@ -40,6 +41,7 @@ class App extends React.Component {
             <div>
               <Header className='header' handlePress={this.handleClickIcon}/>
               <Content />
+              <MailChimp />
             </div>
             :
             <Validate 

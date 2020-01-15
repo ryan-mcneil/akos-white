@@ -5,9 +5,15 @@ import SmallLogo from '../../assets/AKoS_Logo-Solid-Black.png'
 
 import './header.styles.scss';
 
-const Header = ({handlePress}) => (
+const Header = ({ handlePress }) => (
   <div className='header sticky'>
-    <img className='small-logo' src={SmallLogo} alt="akos-white-logo" onClick={handlePress}/>
+    <div className='small-logo-with-text'>
+      <img className='small-logo' src={SmallLogo} alt="akos-white-logo" onClick={handlePress} />
+      <div className='logo-text'>
+        <span>Naturally </span><span className='akos-orange'>spirited</span>
+        <p>Just like you</p>
+      </div>
+    </div>
     <div className='links'>
       <HeaderLink destination='overview' linkName='Overview' />
       <HeaderLink destination='sustainability' linkName='Sustainability' />

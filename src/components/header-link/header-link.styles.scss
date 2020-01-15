@@ -1,8 +1,10 @@
 $akos-orange: #ff6600;
 
 .header-link{
+  width: fit-content;
   padding: 20px;
-  margin: 10px;
+  margin: auto;
+  flex-wrap: nowrap;
 }
 
 .header-link:hover{

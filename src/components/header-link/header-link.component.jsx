@@ -8,12 +8,13 @@ class HeaderLink extends React.Component {
 
   handleSetActive = (event) => {
     var new_id = event+"-link"
-    document.getElementById(new_id).classList.add('header-link-selected')
+    document.getElementById(new_id).classList.add('header-link-selected');
   }
 
-  // handleSetInactive = (event) => {
-  //   console.log('inactive: ', event)
-  // }
+  handleSetInactive = (event) => {
+    var new_id = event+"-link"
+    document.getElementById(new_id).classList.remove('header-link-selected');
+  }
 
   render() {
     return (
@@ -28,7 +29,7 @@ class HeaderLink extends React.Component {
         // containerId="content-container"
         offset={-100}
         onSetActive={this.handleSetActive}
-        // onSetInactive={this.handleSetInactive}
+        onSetInactive={this.handleSetInactive}
       >
         {this.props.linkName}
       </ScrollLink>
