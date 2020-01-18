@@ -1,0 +1,21 @@
+$akos-orange: #ff6600;
+
+.mailchimp{
+  position: fixed;
+  bottom: 0;
+  margin: 0 auto;
+  width: 100%;
+  box-shadow: 0 0 10px #333;
+
+  .button{
+    background-color: $akos-orange;
+    
+  }
+
+}
+
+#mc_embed_signup{
+  background:#fff;
+  clear:left;
+  width:100%;
+}
