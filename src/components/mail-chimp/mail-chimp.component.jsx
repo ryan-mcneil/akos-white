@@ -3,7 +3,7 @@ import React from 'react';
 import './mail-chimp.styles.scss'
 
 class MailChimp extends React.Component {
-  constructor(){
+  constructor() {
     super();
     this.state = {
       email: ""
@@ -12,7 +12,7 @@ class MailChimp extends React.Component {
 
   handleChange = (e) => {
     console.log(e)
-    this.setState({email: e.target.value})
+    this.setState({ email: e.target.value })
   }
 
   render() {
@@ -27,27 +27,34 @@ class MailChimp extends React.Component {
         <div id="mc_embed_signup">
           <form action="https://AkosWhite.us4.list-manage.com/subscribe/post?u=9b11217eba687baa2c208c2ca&amp;id=56017e716f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" novalidate >
             <div id="mc_embed_signup_scroll">
-              <label for="mce-EMAIL">Subscribe</label>
-              <input 
-                type="email" 
-                value={this.state.email} 
+              <label className="mc-subscribe-label" for="mce-EMAIL">Subscribe for product updates</label>
+              <input
+                type="email"
+                value={this.state.email}
                 onChange={this.handleChange}
-                name="EMAIL" 
-                className="email" 
-                id="mce-EMAIL" 
-                placeholder="email address" 
-                required 
+                name="EMAIL"
+                className="email"
+                id="mce-EMAIL"
+                placeholder="email address"
+                required
+                style={{
+                  "font-color": "#000",
+                  "border-color": "#000"
+                }}
               />
               <div style={{ position: "absolute", left: -5000 + "px" }} aria-hidden="true">
                 <input type="text" name="b_9b11217eba687baa2c208c2ca_56017e716f" tabindex="-1" value="" />
               </div>
               <div className="clear">
-                <input 
-                  type="submit" 
-                  value="Subscribe" 
-                  name="subscribe" 
-                  id="mc-embedded-subscribe" 
-                  className="button " 
+                <input
+                  type="submit"
+                  value="Subscribe"
+                  name="subscribe"
+                  id="mc-embedded-subscribe"
+                  className="button"
+                  style={{
+                    "background-color": "#000"
+                  }}
                 />
               </div>
             </div>
