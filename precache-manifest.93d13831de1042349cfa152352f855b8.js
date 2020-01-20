@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ec8d8de4f8c61d7598988ae9d1db50bf",
+    "revision": "230c51f56cb20c56ec12ba15f3c43277",
     "url": "/akos-white/index.html"
   },
   {
-    "revision": "d9ff31273ef0750eacb7",
-    "url": "/akos-white/static/css/main.fb580a04.chunk.css"
+    "revision": "7f6c6450d596ca790a00",
+    "url": "/akos-white/static/css/main.3d2913db.chunk.css"
   },
   {
     "revision": "46dbcfc7d3e7f17b03f5",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/akos-white/static/js/2.bd8fea23.chunk.js.LICENSE"
   },
   {
-    "revision": "d9ff31273ef0750eacb7",
+    "revision": "7f6c6450d596ca790a00",
     "url": "/akos-white/static/js/main.33bd8486.chunk.js"
   },
   {
