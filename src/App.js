@@ -14,39 +14,70 @@ class App extends React.Component {
     super();
 
     this.state = {
-      is_validated: true
+      is_validated: true,
+      width: window.innerWidth
     }
   }
 
   handleClickYes = () => {
-    this.setState({is_validated: true})
+    this.setState({ is_validated: true })
   }
 
   handleClickNo = (event) => {
-    
+
   }
 
   handleClickIcon = () => {
     Scroll.scrollTo(0);
   }
 
+  componentWillMount() {
+    window.addEventListener('resize', this.handleWindowSizeChange);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.handleWindowSizeChange);
+  }
+
+  handleWindowSizeChange = () => {
+    this.setState({ width: window.innerWidth });
+  };
+
 
   render() {
+    const { width } = this.state;
+    const isMobile = width <= 768;
 
     return (
       <div className='background' id='main-page'
       >
         {
           this.state.is_validated ?
-            <div>
-              <Header className='header' handlePress={this.handleClickIcon}/>
-              <Content />
-              <MailChimp />
-            </div>
+            (
+              // this.state.width > 500 ?
+              <div>
+                <Header
+                  className='header'
+                  handlePress={this.handleClickIcon}
+                  isMobile={isMobile}
+                />
+                <Content />
+                <MailChimp />
+              </div>
+              // :
+              // <div>
+              //   <Header
+              //     className='header'
+              //     handlePress={this.handleClickIcon}
+              //   />
+              //   <Content />
+              //   <MailChimp />
+              // </div>
+            )
             :
-            <Validate 
-            handleClickYes={this.handleClickYes}
-            handleClickNo={this.handleClickNo}
+            <Validate
+              handleClickYes={this.handleClickYes}
+              handleClickNo={this.handleClickNo}
             />
         }
       </div>

@@ -1,5 +1,3 @@
-$akos-orange: #ff6600;
-
 .header {
   width: 100%;
   background-color: white;  // border: solid;
@@ -55,4 +53,10 @@ $akos-orange: #ff6600;
 
 .small-logo:hover{
   cursor: pointer;
+}
+
+.web-header{
+  display: flex;
+  border: solid;
+  width: 100%;
 }
