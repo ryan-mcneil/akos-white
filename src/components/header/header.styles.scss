@@ -57,6 +57,18 @@
 
 .web-header{
   display: flex;
-  border: solid;
   width: 100%;
+}
+
+.mobile-header{
+  display: flex;
+  width: 100%;
+}
+
+.mobile-title{
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
 }

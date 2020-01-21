@@ -81,7 +81,8 @@ class Content extends React.Component {
           <div className='video-container'>
             <div className='youtube-wrapper'>
               <iframe
-                src="https://www.youtube.com/embed/SjNLlvFSm4E"
+              // Only update the "src"
+                src="https://www.youtube.com/embed/YxbjrPxuYGw"
                 frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen>
