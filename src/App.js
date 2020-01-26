@@ -35,6 +35,8 @@ class App extends React.Component {
     window.addEventListener('resize', this.handleWindowSizeChange);
   }
 
+  com
+
   componentWillUnmount() {
     window.removeEventListener('resize', this.handleWindowSizeChange);
   }
@@ -42,6 +44,8 @@ class App extends React.Component {
   handleWindowSizeChange = () => {
     this.setState({ width: window.innerWidth });
   };
+
+
 
 
   render() {

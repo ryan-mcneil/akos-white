@@ -61,8 +61,11 @@
 }
 
 .mobile-header{
-  display: flex;
   width: 100%;
+  // border: solid blue;
+  height: 100px;
+  display: flex;
+  
 }
 
 .mobile-title{
@@ -71,4 +74,12 @@
   left: 50%;
   transform: translate(-50%, -50%);
   position: absolute;
+}
+
+.menu-container{
+  // border: solid green;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 5;
 }
