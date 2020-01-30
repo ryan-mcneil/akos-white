@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9defc05fb4bccd6ac061c75ec2436deb",
+    "revision": "78d064893e6796857efc3ecee29d221d",
     "url": "/akos-white/index.html"
   },
   {
-    "revision": "11e053000aaffd3f8b74",
-    "url": "/akos-white/static/css/main.3c9457ce.chunk.css"
+    "revision": "dda7bc2bcec55f7ee450",
+    "url": "/akos-white/static/css/main.1e74bbb3.chunk.css"
   },
   {
-    "revision": "46dbcfc7d3e7f17b03f5",
-    "url": "/akos-white/static/js/2.bd8fea23.chunk.js"
+    "revision": "cfa2658cc8490df4353b",
+    "url": "/akos-white/static/js/2.4d504935.chunk.js"
   },
   {
-    "revision": "d705cb622423d72c5defbf368ca70dcc",
-    "url": "/akos-white/static/js/2.bd8fea23.chunk.js.LICENSE"
+    "revision": "8de4bdbb127f280cc6b79279dd69f244",
+    "url": "/akos-white/static/js/2.4d504935.chunk.js.LICENSE"
   },
   {
-    "revision": "11e053000aaffd3f8b74",
-    "url": "/akos-white/static/js/main.33bd8486.chunk.js"
+    "revision": "dda7bc2bcec55f7ee450",
+    "url": "/akos-white/static/js/main.86cd1a4a.chunk.js"
   },
   {
     "revision": "dd62253e740e08cd65e2",
@@ -34,6 +34,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a87d71d9b72fbd108427dc81bfebe458",
     "url": "/akos-white/static/media/Gobold Regular.a87d71d9.otf"
+  },
+  {
+    "revision": "e59abbe9aa81eea1a4f65822d24cdb9b",
+    "url": "/akos-white/static/media/cancel_icon2.e59abbe9.png"
+  },
+  {
+    "revision": "79b18a5d205cdebc264fc06817b73584",
+    "url": "/akos-white/static/media/hamburger_icon.svg.79b18a5d.png"
   },
   {
     "revision": "995d60e5a7e1026762e2f9033088bb5d",
