@@ -30,8 +30,9 @@ class Header extends React.Component {
     }
   }
 
-  handleMenu = () => {
-    console.log(this.state.menu_enabled)
+  handleMenu = (viewTitle) => {
+    // console.log(event)
+    console.log('before: ', this.state.menu_enabled)
     this.setState({ menu_enabled: !this.state.menu_enabled })
   }
 
@@ -41,19 +42,21 @@ class Header extends React.Component {
         {
           this.state.isMobile ?
             <div className='mobile-header'>
-              <img className='small-logo' src={SmallLogo} alt="akos-white-logo" onClick={this.state.handlePress} />
-              <h1 className='mobile-title'>{this.state.headerTitle}</h1>
+              <div className='small-logo-container'>
+                <img className='small-logo' src={SmallLogo} alt="akos-white-logo" onClick={this.state.handlePress} />
+              </div>
+              {/* <h1 className='mobile-title'>{this.state.headerTitle}</h1> */}
               {
                 this.state.menu_enabled
                   ?
                   <div className="menu-container">
-                    <Menu handleMenu={this.handleMenu}/>
+                    <Menu handleMenu={this.handleMenu} />
                   </div>
                   :
                   <div className="menu-container">
                     <MenuIcon icon={HamburgerIcon} onClick={this.handleMenu} menuClass="hamburger" />
                   </div>
-                    
+
               }
             </div>
             :

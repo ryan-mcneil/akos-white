@@ -5,8 +5,16 @@ import Scroll from 'react-scroll'
 const ScrollLink = Scroll.Link
 
 class HeaderLink extends React.Component {
+  constructor (props) {
+    super(props)
+
+    this.state = {
+      handleMenu: props.handleMenu
+    }
+  }
 
   handleSetActive = (event) => {
+    // console.log(event);
     var new_id = event+"-link"
     document.getElementById(new_id).classList.add('header-link-selected');
   }
@@ -27,9 +35,11 @@ class HeaderLink extends React.Component {
         duration={500}
         className='header-link'
         // containerId="content-container"
-        offset={-100}
+        offset={-150}
         onSetActive={this.handleSetActive}
         onSetInactive={this.handleSetInactive}
+        onClick={this.props.handleMenu}
+
       >
         {this.props.linkName}
       </ScrollLink>

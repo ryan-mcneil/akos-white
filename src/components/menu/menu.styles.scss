@@ -1,13 +1,23 @@
-$akos-orange: #ff6600;
+$akos-orange: #d4af37;
 
 .menu{
-  height: 65vw;
+  height: 70vh;
+  width: 80%;
+  max-width: 20em;
   // border: solid red;
-  margin: 1em 1em 7em 14em;
+  margin: .5em .5em 4em 4em;
   background-color: white;
-  opacity: 90%;
+  opacity: 95%;
   border: solid  $akos-orange;
   border-radius: 2em;
-  border-width: .1em;
+  border-width: .2em;
+  float: right;
+}
 
+.menu-link{
+  text-align: center;
+  // border: green solid;
+  display: flex;
+  width: 100%;
+  margin: 2em 0;
 }

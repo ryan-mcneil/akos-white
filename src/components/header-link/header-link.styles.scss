@@ -2,10 +2,21 @@ $akos-orange: #ff6600;
 
 .header-link{
   width: fit-content;
-  padding: 20px;
+  padding: 1.5em;
   margin: auto;
 }
 
+@media (max-width: 768px) {
+  .header-link{
+    width: 100%;
+    font-size: 2.5em;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+    // border: solid
+  }
+    
+}
 .header-link:hover{
   color: $akos-orange;
   cursor: pointer;

@@ -11,10 +11,18 @@ const Menu = ({ handleMenu }) => (
   <div className='menu'>
     <MenuIcon icon={CancelIcon} onClick={handleMenu} menuClass="cancel" />
     <div>
-      <HeaderLink destination='overview' linkName='Overview' />
-      <HeaderLink destination='sustainability' linkName='Sustainability' />
-      <HeaderLink destination='section-3' linkName='Section 3' />
-      <HeaderLink destination='section-4' linkName='Section 4' />
+      <div className='menu-link'>
+        <HeaderLink handleMenu={handleMenu} destination='overview' linkName='Overview' />
+      </div>
+      <div className='menu-link'>
+        <HeaderLink handleMenu={handleMenu} destination='sustainability' linkName='Sustainability' />
+      </div>
+      <div className='menu-link'>
+        <HeaderLink handleMenu={handleMenu} destination='section-3' linkName='Section 3' />
+      </div>
+      <div className='menu-link'>
+        <HeaderLink handleMenu={handleMenu} destination='section-4' linkName='Section 4' />
+      </div>
 
     </div>
 
