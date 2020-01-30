@@ -62,14 +62,14 @@ class Content extends React.Component {
   render() {
     return (
       <div className='content' id="content-container">
-        <div className='text-container'>
+        <div className='slogan-container background'>
           <div className='slogan'>
             <span>A </span>
             <span className='akos-orange'>fresh</span>
             <span> option for the highly active + Socially conscious among us</span>
           </div>
         </div>
-        <div className='instagram-container'>
+        <div className='instagram-container black-background'>
           <div className='instagram-embed-wrapper'>
             <InstagramEmbed
               url='https://www.instagram.com/p/BpXIGtWlubP/?utm_source=ig_web_copy_link'

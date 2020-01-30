@@ -51,7 +51,7 @@ class App extends React.Component {
     const isMobile = width <= 768;
 
     return (
-      <div className='background' id='main-page'
+      <div className='' id='main-page'
       >
         {
           this.state.is_validated ?

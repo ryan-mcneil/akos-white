@@ -2,6 +2,11 @@
   width: 60%;
   text-align: left;
   margin: 50px auto;
+  // line-height: 2em;
+
+  p{
+    margin: 2em 0;
+  }
 }
 
 .single-text{
@@ -16,8 +21,21 @@
   margin:  0 auto;
   font-size: 32px;
   text-align: center;
-  padding: 30vh 0 50vh;
+  padding: 30vh 10vh 50vh;
   max-width: 600px;
+  // border: solid red;
+}
+
+.slogan-container{
+// border: solid green;
+height: fit-content;
+margin: 0 auto;
+max-width: 900px;
+
+}
+
+.black-background{
+  background-color: grey;
 }
 
 .solution-logo{
@@ -49,21 +67,22 @@ iframe{
 
 .instagram-embed-wrapper {
   padding-top: 650px;
-  width: 320px;
+  width: 330px;
   position: relative;
-  top: 50%;
   margin: 0 auto;  
   z-index: 0;
-
+  // border: solid red;
 }
 
 .instagram-container{
   margin: 0 auto;
-  width: 75%;
+  padding: 2em 0;
+  width: 100%;
 }
 
 @media (max-width: 468px) {
   .slogan{
-    padding: 15vh 0 25vh;
+    padding: 25vh 1em 30vh;
   }
+
 }
