@@ -1,27 +1,36 @@
 {
   "files": {
-    "main.css": "/akos-white/static/css/main.8cdb73f6.chunk.css",
-    "main.js": "/akos-white/static/js/main.58acc468.chunk.js",
-    "main.js.map": "/akos-white/static/js/main.58acc468.chunk.js.map",
+    "main.css": "/akos-white/static/css/main.74e0ad89.chunk.css",
+    "main.js": "/akos-white/static/js/main.f5a9079a.chunk.js",
+    "main.js.map": "/akos-white/static/js/main.f5a9079a.chunk.js.map",
     "runtime-main.js": "/akos-white/static/js/runtime-main.654222b0.js",
     "runtime-main.js.map": "/akos-white/static/js/runtime-main.654222b0.js.map",
-    "static/js/2.4d504935.chunk.js": "/akos-white/static/js/2.4d504935.chunk.js",
-    "static/js/2.4d504935.chunk.js.map": "/akos-white/static/js/2.4d504935.chunk.js.map",
+    "static/css/2.17e5ed98.chunk.css": "/akos-white/static/css/2.17e5ed98.chunk.css",
+    "static/js/2.4f9ff2b2.chunk.js": "/akos-white/static/js/2.4f9ff2b2.chunk.js",
+    "static/js/2.4f9ff2b2.chunk.js.map": "/akos-white/static/js/2.4f9ff2b2.chunk.js.map",
     "index.html": "/akos-white/index.html",
-    "precache-manifest.07cf7dcb397cc9761f433b099d573615.js": "/akos-white/precache-manifest.07cf7dcb397cc9761f433b099d573615.js",
+    "precache-manifest.0797e7e5d300e405f4f4cbb33999c5e4.js": "/akos-white/precache-manifest.0797e7e5d300e405f4f4cbb33999c5e4.js",
     "service-worker.js": "/akos-white/service-worker.js",
-    "static/css/main.8cdb73f6.chunk.css.map": "/akos-white/static/css/main.8cdb73f6.chunk.css.map",
-    "static/js/2.4d504935.chunk.js.LICENSE": "/akos-white/static/js/2.4d504935.chunk.js.LICENSE",
+    "static/css/2.17e5ed98.chunk.css.map": "/akos-white/static/css/2.17e5ed98.chunk.css.map",
+    "static/css/main.74e0ad89.chunk.css.map": "/akos-white/static/css/main.74e0ad89.chunk.css.map",
+    "static/js/2.4f9ff2b2.chunk.js.LICENSE": "/akos-white/static/js/2.4f9ff2b2.chunk.js.LICENSE",
     "static/media/AKoS_Logo-Black_1.png": "/akos-white/static/media/AKoS_Logo-Black_1.dfdc7d9d.png",
     "static/media/AKoS_Logo-Solid-Black.png": "/akos-white/static/media/AKoS_Logo-Solid-Black.04df7602.png",
     "static/media/App.scss": "/akos-white/static/media/topo-image.995d60e5.png",
     "static/media/cancel_icon2.png": "/akos-white/static/media/cancel_icon2.e59abbe9.png",
-    "static/media/hamburger_icon.svg.png": "/akos-white/static/media/hamburger_icon.svg.79b18a5d.png"
+    "static/media/hamburger_icon.svg.png": "/akos-white/static/media/hamburger_icon.svg.79b18a5d.png",
+    "static/media/process1.jpeg": "/akos-white/static/media/process1.7adb07a6.jpeg",
+    "static/media/process2.jpeg": "/akos-white/static/media/process2.70887d13.jpeg",
+    "static/media/process3.jpeg": "/akos-white/static/media/process3.5b075d29.jpeg",
+    "static/media/process4.jpeg": "/akos-white/static/media/process4.b596f245.jpeg",
+    "static/media/process5.jpeg": "/akos-white/static/media/process5.cd050cc8.jpeg",
+    "static/media/process6.jpeg": "/akos-white/static/media/process6.6a28f1b1.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.654222b0.js",
-    "static/js/2.4d504935.chunk.js",
-    "static/css/main.8cdb73f6.chunk.css",
-    "static/js/main.58acc468.chunk.js"
+    "static/css/2.17e5ed98.chunk.css",
+    "static/js/2.4f9ff2b2.chunk.js",
+    "static/css/main.74e0ad89.chunk.css",
+    "static/js/main.f5a9079a.chunk.js"
   ]
 }
